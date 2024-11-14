@@ -71,437 +71,277 @@
                             {{-- <option value="1">Spanish</option> --}}
                         </select>
                         {{-- <button class="btn btn-outline-secondary me-2">Preview</button> --}}
-                        <button class="btn btn-primary">Save</button>
+                       
                     </div>
                 </div>
 
                 <!-- Tabbed Content -->
                 <div class="card p-3">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="meta-tab" data-bs-toggle="tab" data-bs-target="#meta" type="button" role="tab">Meta</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link " id="content-tab" data-bs-toggle="tab" data-bs-target="#content" type="button" role="tab">Hero Content</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="quick-tab" data-bs-toggle="tab" data-bs-target="#quick" type="button" role="tab">Quick Search</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="key-tab" data-bs-toggle="tab" data-bs-target="#key" type="button" role="tab">Key Features</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="possiblities-tab" data-bs-toggle="tab" data-bs-target="#possiblities" type="button" role="tab">Possiblities</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="Benefits-tab" data-bs-toggle="tab" data-bs-target="#Benefits " type="button" role="tab">Benefits </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="statistics-tab" data-bs-toggle="tab" data-bs-target="#statistics" type="button" role="tab">Statistics</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="clients-tab" data-bs-toggle="tab" data-bs-target="#clients" type="button" role="tab">Clients</button>
-                        </li>
-                    </ul>
-                    <div class="tab-content mt-3" id="myTabContent">
-                        <!-- Hero Content Tab -->
-                        <div class="tab-pane fade " id="content" role="tabpanel">
-                            <div class="mb-3">
-                                <label class="form-lable">Hero Heading</label>
-                                <input type="text" class="form-control" placeholder="Hero Heading">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Text</label>
-                                <textarea class="form-control" rows="4">Making The World a Better Place</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Image</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Image Alt</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                            {{-- <button class="btn btn-outline-primary">Add block</button> --}}
-                        </div>
-                        <!-- Meta Tab -->
-                        <div class="tab-pane fade show active" id="meta" role="tabpanel">
-                            <div class="mb-3">
-                                <label for="metaTitle" class="form-label">Meta Title</label>
-                                <input type="text" id="metaTitle" class="form-control" placeholder="Enter meta title">
-                            </div>
-                            <div class="mb-3">
-                                <label for="metaKeywords" class="form-label">Keywords</label>
-                                <input type="text" id="metaKeywords" class="form-control" placeholder="Enter keywords, separated by commas">
-                            </div>
-                            <div class="mb-3">
-                                <label for="metaTags" class="form-label">Tags</label>
-                                <input type="text" id="metaTags" class="form-control" placeholder="Enter tags, separated by commas">
-                            </div>
-                            <div class="mb-3">
-                                <label for="metaDescription" class="form-label">Description</label>
-                                <textarea id="metaDescription" class="form-control" rows="4" placeholder="Enter meta description"></textarea>
-                            </div>
-                        </div>
-                        <!-- Quick Search -->
-                        <div class="tab-pane fade" id="quick" role="tabpanel">
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Heading</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Para</label>
-                                <textarea class="form-control" rows="4">Quick Search Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Image</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Image Alt</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                            {{-- Card One --}}
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Heading One</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Para One</label>
-                                <textarea class="form-control" rows="4">Quick Search Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Image One</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Image Alt One</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                            {{-- Card Two --}}
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Heading Two</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Para Two</label>
-                                <textarea class="form-control" rows="4">Quick Search Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Image Two</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Image Alt Two</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                            {{-- Card Three --}}
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Heading Three</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Para Three</label>
-                                <textarea class="form-control" rows="4">Quick Search Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Image Three</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Image Alt Three</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                            {{-- Card Four --}}
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Heading Four</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Para Four</label>
-                                <textarea class="form-control" rows="4">Quick Search Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Image Four</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Quick Search Card Image Alt Four</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                        </div>
-                        {{-- Key Features --}}
-                        <div class="tab-pane fade" id="key" role="tabpanel">
-                            <div class="mb-3">
-                                <label class="form-label">Key Features Heading</label>
-                                <input type="text" class="form-control" placeholder="Heading..." name="KeyFeaturesHeading">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Key Features Image</label>
-                                <input type="file" class="form-control" name="KeyFeaturesImage">
-                            </div>
-                            {{-- Key One --}}
-                            <div class="mb-3">
-                                <label class="form-label">Key Heading One</label>
-                                <input type="text" class="form-control" placeholder="Heading..." name="KeyHeadingOne">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Key Para One</label>
-                                <textarea class="form-control" rows="4" name="KeyParaOne">Quick Search Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Key Image One</label>
-                                <input type="file" class="form-control" name="KeyImageOne">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Key Image Alt One</label>
-                                <input type="text" class="form-control" placeholder="Image Alt" name="KeyImageAltOne">
-                            </div>
-                            {{-- Key Two --}}
-                            <div class="mb-3">
-                                <label class="form-label">Key Heading Two</label>
-                                <input type="text" class="form-control" placeholder="Heading..." name="KeyHeadingTwo">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Key Para Two</label>
-                                <textarea class="form-control" rows="4" name="KeyParaTwo">Quick Search Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Key Image Two</label>
-                                <input type="file" class="form-control" name="KeyImageTwo">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Key Image Alt Two</label>
-                                <input type="text" class="form-control" placeholder="Image Alt" name="KeyImageAltTwo">
-                            </div>
-                            {{-- Key Three --}}
-                            <div class="mb-3">
-                                <label class="form-label">Key Heading Three</label>
-                                <input type="text" class="form-control" placeholder="Heading..." name="KeyHeadingThree">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Key Para Three</label>
-                                <textarea class="form-control" rows="4" name="KeyParaThree">Quick Search Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Key Image Three</label>
-                                <input type="file" class="form-control" name="KeyImageThree">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Key Image Alt Three</label>
-                                <input type="text" class="form-control" placeholder="Image Alt" name="KeyImageAltThree">
-                            </div>
-                            {{-- Key Four --}}
-                            <div class="mb-3">
-                                <label class="form-label">Key Heading Four</label>
-                                <input type="text" class="form-control" placeholder="Heading..." name="KeyHeadingFour">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Key Para Four</label>
-                                <textarea class="form-control" rows="4" name="KeyParaFour">Quick Search Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Key Image Four</label>
-                                <input type="file" class="form-control" name="KeyImageFour">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Key Image Alt Four</label>
-                                <input type="text" class="form-control" placeholder="Image Alt" name="KeyImageAltFour">
-                            </div>
-                        </div>
-                        <!-- Possibilities -->
-                        <div class="tab-pane fade" id="possiblities" role="tabpanel">
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Heading</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Para</label>
-                                <textarea class="form-control" rows="4">Possibilities Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Image</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Image Alt</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                            {{-- Card One --}}
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Heading One</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Para One</label>
-                                <textarea class="form-control" rows="4">Possibilities Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Image One</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Image Alt One</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                            {{-- Card Two --}}
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Heading Two</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Para Two</label>
-                                <textarea class="form-control" rows="4">Possibilities Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Image Two</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Image Alt Two</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                            {{-- Card Three --}}
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Heading Three</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Para Three</label>
-                                <textarea class="form-control" rows="4">Possibilities Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Image Three</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Image Alt Three</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                            {{-- Card Four --}}
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Heading Four</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Para Four</label>
-                                <textarea class="form-control" rows="4">Possibilities Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Image Four</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Possibilities Card Image Alt Four</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
+                    <form action="" method="post" action="">
+                        <ul class="nav nav-tabs d-flex" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="meta-tab" data-bs-toggle="tab" data-bs-target="#meta" type="button" role="tab">Meta</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link " id="content-tab" data-bs-toggle="tab" data-bs-target="#content" type="button" role="tab">Hero Content</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="quick-tab" data-bs-toggle="tab" data-bs-target="#quick" type="button" role="tab">Quick Search</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="key-tab" data-bs-toggle="tab" data-bs-target="#key" type="button" role="tab">Key Features</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="possiblities-tab" data-bs-toggle="tab" data-bs-target="#possiblities" type="button" role="tab">Possiblities</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="Benefits-tab" data-bs-toggle="tab" data-bs-target="#Benefits " type="button" role="tab">Benefits </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="statistics-tab" data-bs-toggle="tab" data-bs-target="#statistics" type="button" role="tab">Statistics</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="clients-tab" data-bs-toggle="tab" data-bs-target="#clients" type="button" role="tab">Clients</button>
+                            </li>
+                            <button type="submit" class="btn btn-primary" style="margin-left: auto;">Save</button>
+                        </ul>
+               
+                        <div class="tab-content mt-3" id="myTabContent">
+                            <!-- Hero Content Tab -->
+                            <div class="tab-pane fade " id="content" role="tabpanel">
+                                <div class="mb-3">
+                                    <label class="form-lable">Hero Heading</label>
+                                    <input type="text" class="form-control" placeholder="Hero Heading" name="HeroHeading">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Hero Paragraph</label>
+                                    <textarea class="form-control" rows="4" name="HeroPara">Making The World a Better Place</textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Hero Image</label>
+                                    <input type="file" class="form-control" name="HeroImage">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Image Alt</label>
+                                    <input type="text" class="form-control" placeholder="Image Alt" name="ImageAlt">
+                                </div>
+                                {{-- <button class="btn btn-outline-primary">Add block</button> --}}
+                            </div>
+                            <!-- Meta Tab -->
+                            <div class="tab-pane fade show active" id="meta" role="tabpanel">
+                                <div class="mb-3">
+                                    <label for="metaTitle" class="form-label">Meta Title</label>
+                                    <input type="text" id="metaTitle" class="form-control" placeholder="Enter meta title" name="HomeMetaTitle">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="metaKeywords" class="form-label">Meta Keywords</label>
+                                    <input type="text" id="metaKeywords" class="form-control" placeholder="Enter keywords, separated by commas" name="HomeMetaKeyword">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="metaTags" class="form-label">Meta Tags</label>
+                                    <input type="text" id="metaTags" class="form-control" placeholder="Enter tags, separated by commas" name="HomeMetaTags">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="metaDescription" class="form-label">Meta Description</label>
+                                    <textarea id="metaDescription" class="form-control" rows="4" placeholder="Enter meta description" name="HomeMetaDesc"></textarea>
+                                </div>
+                            </div>
+                            <!-- Quick Search -->
+                            <div class="tab-pane fade" id="quick" role="tabpanel">
+                                <div class="mb-3">
+                                    <label class="form-label">Quick Search Heading</label>
+                                    <input type="text" class="form-control" placeholder="Heading..." name="QuickSearchHeading">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Quick Search Para</label>
+                                    <textarea class="form-control" rows="4" name="QuickSearchPara">Quick Search Paragraph</textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Quick Search Image</label>
+                                    <input type="file" class="form-control" name="QuickSearchImage">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Quick Search Image Alt</label>
+                                    <input type="text" class="form-control" placeholder="Image Alt" name="QuickSearchImageAlt">
+                                </div>
+                                @php
+                                    $QuickCard=[
+                                        ['count'=>'One'],
+                                        ['count'=>'Two'],
+                                        ['count'=>'Three'],
+                                        ['count'=>'Four'],
+                                    ]
+                                @endphp
+                                @foreach ($QuickCard as $index=>$card)
+                                    <div class="mb-3">
+                                        <label class="form-label">Quick Search Card Heading {{ $card['count'] }}</label>
+                                        <input type="text" class="form-control" placeholder="Quick Search Card Heading {{ $card['count'] }}..." name="QsCH{{ $card['count'] }}">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Quick Search Card Para {{ $card['count'] }}</label>
+                                        <textarea class="form-control" rows="4" name="QsCP{{ $card['count'] }}">Quick Search Paragraph {{ $card['count'] }}</textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Quick Search Card Image {{ $card['count'] }}</label>
+                                        <input type="file" class="form-control" name="QsCI{{ $card['count'] }}">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Quick Search Card Image Alt {{ $card['count'] }}</label>
+                                        <input type="text" class="form-control" placeholder="Image Alt {{ $card['count'] }}" name="QsCIA{{ $card['count'] }}">
+                                    </div>
+                                @endforeach
+                            </div>
+                            {{-- Key Features --}}
+                            <div class="tab-pane fade" id="key" role="tabpanel">
+                                <div class="mb-3">
+                                    <label class="form-label">Key Features Heading</label>
+                                    <input type="text" class="form-control" placeholder="Heading..." name="KeyFeaturesHeading">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Key Features Image</label>
+                                    <input type="file" class="form-control" name="KeyFeaturesImage">
+                                </div>
+
+                                {{-- Key Array --}}
+                                @php
+                                    $KeyFeatures=[
+                                        ['count'=>'One'],
+                                        ['count'=>'Two'],
+                                        ['count'=>'Three'],
+                                        ['count'=>'Four'],
+                                    ];
+                                @endphp
+                                @foreach ($KeyFeatures as $item=>$key)
+                                    <div class="mb-3">
+                                        <label class="form-label">Key Heading {{$key['count']}}</label>
+                                        <input type="text" class="form-control" placeholder="Heading..." name="KeyHeading{{$key['count']}}">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Key Para {{$key['count']}}</label>
+                                        <textarea class="form-control" rows="4" name="KeyPara{{$key['count']}}">Quick Search Paragraph</textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Key Image {{$key['count']}}</label>
+                                        <input type="file" class="form-control" name="KeyImage{{$key['count']}}">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Key Image Alt {{$key['count']}}</label>
+                                        <input type="text" class="form-control" placeholder="Image Alt {{$key['count']}}" name="KeyImageAlt{{$key['count']}}">
+                                    </div>
+                                @endforeach
+                            </div>
+                            <!-- Possibilities -->
+                            <div class="tab-pane fade" id="possiblities" role="tabpanel">
+                                <div class="mb-3">
+                                    <label class="form-label">Possibilities Heading</label>
+                                    <input type="text" class="form-control" placeholder="Heading..." name="PHeading">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Possibilities Para</label>
+                                    <textarea class="form-control" rows="4" name="PPara">Possibilities Paragraph</textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Possibilities Image</label>
+                                    <input type="file" class="form-control" name="PImage">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Possibilities Image Alt</label>
+                                    <input type="text" class="form-control" placeholder="Image Alt" name="PImageAlt">
+                                </div>
+                                {{-- Card One --}}
+                                @php
+                                    $cards=[
+                                        ['count' => 'One'],
+                                        ['count' => 'Two'],
+                                        ['count' => 'Three' ],
+                                        ['count' => 'Four'],
+                                    ]
+                                @endphp
+                                @foreach ($cards as $index => $card)
+                                    <div class="mb-3">
+                                        <label class="form-label">Possibilities Card Heading {{ $card['count'] }}</label>
+                                        <input type="text" class="form-control" placeholder="Card Heading {{ $card['count'] }}..." name="PcH{{ $card['count'] }}">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Possibilities Card Para {{ $card['count'] }}</label>
+                                        <textarea class="form-control" rows="4" name="PcP{{ $card['count'] }}">Possibilities Paragraph {{ $card['count'] }}</textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Possibilities Card Image {{ $card['count'] }}</label>
+                                        <input type="file" class="form-control" name="PcI{{ $card['count'] }}">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Possibilities Card Image Alt {{ $card['count'] }}</label>
+                                        <input type="text" class="form-control" placeholder="Image Alt {{ $card['count'] }}" name="PcIA{{ $card['count'] }}">
+                                    </div>
+                                @endforeach
+                            </div>
+                            {{-- Benefits --}}
+                            <div class="tab-pane fade" id="Benefits" role="tabpanel">
+                                <div class="mb-3">
+                                    <label class="form-label">Benefits Image</label>
+                                    <input type="file" class="form-control" name="BenefitsImage">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Benefits  Heading</label>
+                                    <input type="text" class="form-control" placeholder="Benefits Heading.." name="BenefitsHeading">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Benefits  Para</label>
+                                    <textarea class="form-control" rows="4" name="BenefitsPara">Benefits Paragraph</textarea>
+                                </div>
+                            </div>
+                            <!-- Statistics -->
+                            <div class="tab-pane fade" id="statistics" role="tabpanel" >
+                                <div class="mb-3">
+                                    <label class="form-label">Statistics Image</label>
+                                    <input type="file" class="form-control" name="Statistics Image">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-control">Statistics Heading</label>
+                                    <input type="text" class="form-control" placeholder="Statistics Heading.." name="Statistics">
+                                </div>
+                                @php
+                                    $StatCards = [
+                                        ['count' => 'One'],
+                                        ['count' => 'Two'],
+                                        ['count' => 'Three'],
+                                        ['count' => 'Four']
+                                        ];
+                                @endphp
+                                @foreach ($StatCards as $item=>$stats)
+                                    <div class="mb-3">
+                                        <label class="form-label">Statistics Heading {{$stats['count']}}</label>
+                                        <input type="text" class="form-control" placeholder="Stats Card Heading {{$stats['count']}}..." name="StatsCH{{$stats['count']}}">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Statistics Para {{$stats['count']}}</label>
+                                        <textarea class="form-control" rows="4" name="StatsCP{{$stats['count']}}">Statistics Paragraph {{$stats['count']}}</textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Statistics Image {{$stats['count']}}</label>
+                                        <input type="file" class="form-control" name="StatsCI{{$stats['count']}}">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Statistics Image Alt {{$stats['count']}}</label>
+                                        <input type="text" class="form-control" placeholder="Image Alt {{$stats['count']}}"name="StatsCIA{{$stats['count']}}">
+                                    </div>
+                                @endforeach
+                           
+                            </div>
+                            {{-- Clients --}}
+                            <div class="tab-pane fade" id="clients" role="tabpanel">
+                                <div class="mb-3">
+                                    <label class="form-label">Clients Heading</label>
+                                    <input type="text" class="form-control" placeholder="Heading...">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Clients Para</label>
+                                    <textarea class="form-control" rows="4">Clients Paragraph</textarea>
+                                </div>
                             </div>
                         </div>
-                        {{-- Benefits --}}
-                        <div class="tab-pane fade" id="Benefits" role="tabpanel">
-                            <div class="mb-3">
-                                <label class="form-label">Benefits Image</label>
-                                <input type="file" class="form-control" name="BenefitsImage">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Benefits  Heading</label>
-                                <input type="text" class="form-control" placeholder="Benefits Heading.." name="BenefitsHeading">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Benefits  Para</label>
-                                <textarea class="form-control" rows="4" name="BenefitsPara">Benefits Paragraph</textarea>
-                            </div>
-                        </div>
-                        <!-- Statistics -->
-                        <div class="tab-pane fade" id="statistics" role="tabpanel" >
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Image</label>
-                                <input type="file" class="form-control" name="Statistics Image">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-control">Statistics Heading</label>
-                                <input type="text" class="form-control" placeholder="Statistics Heading.." name="Statistics">
-                            </div>
-                            {{-- Card One --}}
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Heading One</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Para One</label>
-                                <textarea class="form-control" rows="4">Statistics Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Image One</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Image Alt One</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                            {{-- Card Two --}}
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Heading Two</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Para Two</label>
-                                <textarea class="form-control" rows="4">Statistics Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Image Two</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Image Alt Two</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                            {{-- Card Three --}}
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Heading Three</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Para Three</label>
-                                <textarea class="form-control" rows="4">Statistics Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Image Three</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Image Alt Three</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                            {{-- Card Four --}}
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Heading Four</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Para Four</label>
-                                <textarea class="form-control" rows="4">Statistics Paragraph</textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Image Four</label>
-                                <input type="file" class="form-control">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Statistics Image Alt Four</label>
-                                <input type="text" class="form-control" placeholder="Image Alt">
-                            </div>
-                        </div>
-                        {{-- Clients --}}
-                        <div class="tab-pane fade" id="clients" role="tabpanel">
-                            <div class="mb-3">
-                                <label class="form-label">Clients Heading</label>
-                                <input type="text" class="form-control" placeholder="Heading...">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label">Clients Para</label>
-                                <textarea class="form-control" rows="4">Clients Paragraph</textarea>
-                            </div>
-                        </div>
-                    </div>
+                    </form>
                 </div>
 
                 <!-- Sidebar (Author, Post Date, etc.) -->
